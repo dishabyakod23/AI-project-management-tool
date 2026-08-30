@@ -1,0 +1,35 @@
+# Environment
+.env
+.env.local
+backend/.env
+
+# Node / Next.js
+node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/next-env.d.ts
+frontend/.env*.local
+npm-debug.log*
+
+# Python
+backend/venv/
+backend/__pycache__/
+**/__pycache__/
+*.py[cod]
+*.egg-info/
+backend/.pytest_cache/
+backend/htmlcov/
+backend/.coverage
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
